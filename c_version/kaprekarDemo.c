@@ -6,7 +6,7 @@
 int main(int argc, char **argv) {
 
   if(argc != 2) {
-    fprintf(stderr, "Usage: %s n\n", argv[0]);
+    printf(stderr, "Usage: %s n\n", argv[0]); //an addition f infront of printf could have created a problem
     exit(1);
   }
 
