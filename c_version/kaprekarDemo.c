@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
 
   if(isKaprekar(n)) {
     printf("%d is a Kaprekar Number!\n", n);
-  } else {
+  } else if { //else if needs to be used if it is not the last statement which technically this is not
     printf("%d is not a Kaprekar Number!\n", n);
   }
 
