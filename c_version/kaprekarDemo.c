@@ -1,7 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 
-#include "kaprekarUtils.h"
+// this library doesn't exist in the csce server 
 
 int main(int argc, char **argv) {
   
