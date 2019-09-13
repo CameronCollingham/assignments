@@ -5,7 +5,7 @@
 
 int main(int argc, char **argv) {
   
-  double n = 0; // variable needs to be stated and assigned before use 
+  int n = 0; // variable needs to be stated and assigned before use 
   
   if(argc != 2) {
     printf(stderr, "Usage: %s n\n", argv[0]); //an addition f infront of printf could have created a problem
